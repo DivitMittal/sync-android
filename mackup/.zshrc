@@ -6,6 +6,9 @@
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export TERM="xterm-256color"
+        
+PROMPT="%~ %# "
+
 # Preferred editor for remote and local sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
@@ -37,5 +40,21 @@ alias ls="eza $eza_params"
 alias ll="eza -lbhHigUmuSa@ $eza_params"
 alias lt="eza --tree --level=2 $eza_params"
 
-alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean'
+# Navigation aliases
+alias dl="cd $HOME/storage/downloads"
+
+# Other aliases
+alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
+alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
+alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean; apt-backup'
+alias android-ultimate='apt-ultimate; apps-backup; magisk-backup'
+
+################################################################################################################################################
+# Initializations
+################################################################################################################################################
+if [[ -o interactive ]]; then
+	# secure shell daemon
+	sshd -p 2222
+fi
 

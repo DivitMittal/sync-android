@@ -1,0 +1,9 @@
+GMSDoze
+HideNavBar
+hosts
+playintegrityfix
+playstore-excl-upd
+sensitive_props
+simple_bootloopsaver
+zygisk_lsposed
+zygisk_shamiko
