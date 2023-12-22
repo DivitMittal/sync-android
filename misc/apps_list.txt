@@ -1,7 +1,9 @@
 md.obsidian
+com.google.android.gm
 gp.lvswfhx
 com.aurora.store
 com.kiwibrowser.browser
+com.lookandfeel.cleanerforwhatsapp
 com.google.android.apps.youtube.music
 com.ubercab
 com.github.android
@@ -10,7 +12,6 @@ com.termux.api
 com.spotify.music
 com.asyjaiz.A12blur
 com.openai.chatgpt
-com.google.android.apps.nbu.files
 com.divum.MoneyControl
 com.litesapp.ftp
 com.google.android.calendar
@@ -28,7 +29,6 @@ in.amazon.mShop.android.shopping
 com.google.android.wearable.app
 com.google.android.apps.nbu.paisa.user
 com.bnyro.recorder
-com.microsoft.office.outlook
 com.grampower.consumerapp.wifismartmeterapp
 com.csam.icici.bank.imobile
 com.looker.droidify
@@ -43,13 +43,15 @@ com.xc3fff0e.xmanager
 com.wordwebsoftware.android.wordweb
 com.google.android.apps.photosgo
 app.revanced.manager.flutter
+com.fsck.k9
 com.termux.styling
 com.xiaomi.smarthome
+com.whereismytrain.android
 com.flashmonk.flash
 com.google.android.apps.authenticator2
 com.google.android.youtube
 scientific.calculator.c880
+cris.org.in.prs.ima
 org.adaway
 eu.chainfire.liveboot
 com.tsng.hidemyapplist
-com.instagram.android

@@ -7,7 +7,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export TERM="xterm-256color"
         
-PROMPT="%~ %# "
+PROMPT="%F{cyan}%~%f %# "
 
 # Preferred editor for remote and local sessions
 if [[ -n $SSH_CONNECTION ]]; then
