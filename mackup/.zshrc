@@ -3,7 +3,6 @@
 # Variables & Environment variables (variables exported to child processes)
 ################################################################################################################################################
 ## Environment variables
-export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export TERM="xterm-256color"
         
@@ -45,10 +44,18 @@ alias dl="cd $HOME/storage/downloads"
 
 # Other aliases
 alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
-alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
 alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
 alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean; apt-backup'
 alias android-ultimate='apt-ultimate; apps-backup; magisk-backup'
+
+################################################################################################################################################
+# Additional Programs
+################################################################################################################################################
+# TUIFIManager
+tuifi_show_hidden='True'
+tuifi_vim_mode='True'
+tuifi_default_editor='vim'
 
 ################################################################################################################################################
 # Initializations

@@ -1,9 +1,11 @@
-GMSDoze
 HideNavBar
 hosts
+music-extended-jhc-arm64
 playintegrityfix
-playstore-excl-upd
 sensitive_props
 simple_bootloopsaver
+universal-gms-doze
+youtube-extended-jhc
+zygisk-detach
 zygisk_lsposed
 zygisk_shamiko
