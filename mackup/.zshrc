@@ -69,7 +69,7 @@ if [[ -o interactive ]]; then
 	sshd -p 2222
 
 	# Pipx completions
-	#eval "$(register-python-argcomplete pipx)"
+	eval "$(register-python-argcomplete pipx)"
 
 	# fetch
 	ff
