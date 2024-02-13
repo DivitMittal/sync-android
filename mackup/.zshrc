@@ -36,7 +36,7 @@ plugins=()
 ################################################################################################################################################
 # Utilitiy aliases
 alias v='vim'
-alias ff='fastfetch --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
+alias ff='fastfetch --logo android-small --logo-separate false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
 
 # eza command-line utility (gnu-ls alternative)
 eza_params=('--all' '--icons=always' '--classify' '--group-directories-first' '--time-style=long-iso' '--group' '--color-scale' '--hyperlink')
