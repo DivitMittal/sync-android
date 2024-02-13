@@ -17,6 +17,8 @@ fi
 export VISUAL='vim'
 
 ## PATH environment variable
+export PATH="$PATH:/data/data/com.termux/files/home/.local/bin"
+
 ################################################################################################################################################
 # Antidote - zsh plugin manager
 ################################################################################################################################################
@@ -32,7 +34,10 @@ plugins=()
 ################################################################################################################################################
 # Aliases
 ################################################################################################################################################
+# Utilitiy aliases
 alias v='vim'
+alias ff='fastfetch --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
+
 # eza command-line utility (gnu-ls alternative)
 eza_params=('--all' '--icons=always' '--classify' '--group-directories-first' '--time-style=long-iso' '--group' '--color-scale' '--hyperlink')
 alias ls="eza $eza_params"
@@ -52,10 +57,9 @@ alias android-ultimate='apt-ultimate; apps-backup; magisk-backup'
 ################################################################################################################################################
 # Additional Programs
 ################################################################################################################################################
-# TUIFIManager
-tuifi_show_hidden='True'
-tuifi_vim_mode='True'
-tuifi_default_editor='vim'
+# Load bash completions
+autoload -U bashcompinit
+bashcompinit
 
 ################################################################################################################################################
 # Initializations
@@ -63,5 +67,11 @@ tuifi_default_editor='vim'
 if [[ -o interactive ]]; then
 	# secure shell daemon
 	sshd -p 2222
+
+	# Pipx completions
+	#eval "$(register-python-argcomplete pipx)"
+
+	# fetch
+	ff
 fi
 
