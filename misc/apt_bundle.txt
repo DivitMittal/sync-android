@@ -65,6 +65,7 @@ pcre2
 procps
 psmisc
 python
+rclone
 readline
 ripgrep
 root-repo

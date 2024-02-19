@@ -8,6 +8,7 @@ com.lookandfeel.cleanerforwhatsapp
 com.snapchat.android
 com.google.android.apps.youtube.music
 com.ubercab
+air.kukulive.mailnow
 com.google.android.apps.magazines
 com.github.android
 com.microsoft.teams
@@ -33,7 +34,6 @@ pl.solidexplorer2
 android.autoinstalls.config.oneplus
 in.upstox.app
 com.google.ar.core
-com.microsoft.skydrive
 in.amazon.mShop.android.shopping
 com.google.android.wearable.app
 com.google.android.apps.nbu.paisa.user
@@ -42,6 +42,7 @@ in.yourspace
 com.grampower.consumerapp.wifismartmeterapp
 com.csam.icici.bank.imobile
 com.et.market
+io.github.x0b.rcx
 org.fossify.filemanager
 com.trendlyne.markets
 com.sony.songpal.mdr
