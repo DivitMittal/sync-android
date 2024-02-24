@@ -1,4 +1,6 @@
+com.slickapp
 md.obsidian
+bellavita.toast
 com.google.android.gm
 net.one97.paytm
 com.aurora.store
@@ -28,7 +30,6 @@ org.lsposed.manager
 com.microsoft.office.officehubrow
 com.twitter.android
 com.amazon.dee.app
-com.andreacioccarelli.androoster
 com.google.android.apps.maps
 pl.solidexplorer2
 android.autoinstalls.config.oneplus
@@ -59,6 +60,7 @@ exa.free.saux
 com.xc3fff0e.xmanager
 com.wordwebsoftware.android.wordweb
 org.fossify.calendar
+com.fox2code.mmm
 com.termux.styling
 com.xiaomi.smarthome
 ru.andr7e.deviceinfohw
@@ -74,4 +76,3 @@ cris.org.in.prs.ima
 org.adaway
 eu.chainfire.liveboot
 com.tsng.hidemyapplist
-com.instagram.android

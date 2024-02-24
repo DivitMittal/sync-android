@@ -1,5 +1,7 @@
 HideNavBar
+STRP
 hosts
+isodrive
 music-extended-jhc-arm64
 playintegrityfix
 sensitive_props

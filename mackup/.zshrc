@@ -38,6 +38,8 @@ plugins=()
 alias v='vim'
 alias ff='fastfetch --logo android-small --logo-separate false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
 alias detach='su -c detach'
+alias strp='su -c strpmenu'
+alias isodrive='su -c isodrive'
 
 # eza command-line utility (gnu-ls alternative)
 eza_params=('--all' '--icons=always' '--classify' '--group-directories-first' '--time-style=long-iso' '--group' '--color-scale' '--hyperlink')
@@ -71,6 +73,9 @@ if [[ -o interactive ]]; then
 
 	# Pipx completions
 	eval "$(register-python-argcomplete pipx)"
+	
+	# zoxide
+	eval "$(zoxide init --cmd cd zsh)"
 
 	# fetch
 	ff

@@ -89,4 +89,5 @@ x11-repo
 xxhash
 xz-utils
 zlib
+zoxide
 zsh
