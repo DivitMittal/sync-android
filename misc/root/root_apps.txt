@@ -1,0 +1,7 @@
+Magisk
+AdAway
+LiveBoot
+LSPosed
+HideMyAppList
+AndroidacyModuleManager
+
