@@ -56,6 +56,7 @@ lsof
 nano
 ncurses
 ncurses-utils
+neovim
 net-tools
 openssh
 openssl
@@ -71,6 +72,7 @@ ripgrep
 root-repo
 rsync
 sed
+starship
 tar
 termux-am
 termux-am-socket
@@ -88,6 +90,7 @@ which
 x11-repo
 xxhash
 xz-utils
+yazi
 zlib
 zoxide
 zsh
