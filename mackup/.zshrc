@@ -22,21 +22,21 @@ export VISUAL='nvim'
 ## PATH environment variable
 export PATH="$PATH:/data/data/com.termux/files/home/.local/bin"
 
-################################################################################################################################################
+###################################################################################
 # Antidote - zsh plugin manager
-################################################################################################################################################
+###################################################################################
 source $HOME/.antidote/antidote.zsh
 antidote load
 
-################################################################################################################################################
-# Oh-my-zsh - zsh framework & plugin manager, also a dependency for many of the plugins instlled via Antidote
-################################################################################################################################################
+####################################################################################
+# Oh-my-zsh - zsh framework & plugin manager (managed by Antidote)
+#####################################################################################
 export ZSH="$HOME/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh"
 plugins=()
 
-################################################################################################################################################
+#####################################################################################
 # Aliases
-################################################################################################################################################
+#####################################################################################
 # Utilitiy aliases
 alias v='vim'
 alias ff='fastfetch --logo android-small --logo-separate false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
@@ -50,21 +50,21 @@ alias lt="eza --tree --level=2 $eza_params"
 
 # Navigation aliases
 alias dl="cd $HOME/storage/downloads"
+alias doc="cd $HOME/storage/shared/Documents"
 
 # Other aliases
-alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
-alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+#alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
+#alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
 alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
 alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean; apt-backup'
-alias android-ultimate='apt-ultimate; apps-backup;'
+alias android-ultimate='apt-ultimate'
 
-################################################################################################################################################
+#################################################################################
 # Additional Programs
-################################################################################################################################################
+#################################################################################
 # Load bash completions
 autoload -U bashcompinit
 bashcompinit
-
 
 #################################################################################
 # Functions
@@ -79,9 +79,9 @@ function ya() {
 	rm -f -- "$tmp"
 }
 
-################################################################################################################################################
+###################################################################################
 # Initializations
-################################################################################################################################################
+###################################################################################
 if [[ -o interactive ]]; then
 	# secure shell daemon
 	sshd -p 2222

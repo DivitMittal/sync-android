@@ -1,2 +1,0 @@
-No superuser binary detected. 
-Are you rooted? 
