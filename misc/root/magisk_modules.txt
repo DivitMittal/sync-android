@@ -2,12 +2,12 @@ HideNavBar
 STRP
 hosts
 isodrive
-music-extended-jhc-arm64
+music-jhc-arm64
 playintegrityfix
 sensitive_props
 simple_bootloopsaver
 universal-gms-doze
-youtube-extended-jhc
+youtube-jhc
 zygisk-detach
 zygisk_lsposed
 zygisk_shamiko

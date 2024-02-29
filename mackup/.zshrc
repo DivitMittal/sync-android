@@ -8,7 +8,7 @@ setopt re_match_pcre
 ## Environment variables
 export LANG=en_US.UTF-8
 export TERM="xterm-256color"
-        
+
 PROMPT="%F{cyan}%~%f %# "
 
 # Preferred editor for remote and local sessions
@@ -53,11 +53,17 @@ alias dl="cd $HOME/storage/downloads"
 alias doc="cd $HOME/storage/shared/Documents"
 
 # Other aliases
-#alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
-#alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
+alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
 alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
 alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean; apt-backup'
-alias android-ultimate='apt-ultimate'
+alias android-ultimate='apt-ultimate; apps-backup;magisk-backup;'
+
+# Root utilities
+alias magisk='su -c magisk'
+alias isodrive='su -c isodrive'
+alias strpmenu='su -c strpmenu'
+alias detach='su -c detach'
 
 #################################################################################
 # Additional Programs
@@ -88,7 +94,7 @@ if [[ -o interactive ]]; then
 
 	# Pipx completions
 	eval "$(register-python-argcomplete pipx)"
-	
+
 	# zoxide
 	eval "$(zoxide init --cmd cd zsh)"
 
