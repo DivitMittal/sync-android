@@ -5,7 +5,6 @@ isodrive
 music-jhc-arm64
 playintegrityfix
 sensitive_props
-simple_bootloopsaver
 universal-gms-doze
 youtube-jhc
 zygisk-detach

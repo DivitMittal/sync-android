@@ -16,7 +16,6 @@ com.google.android.apps.podcasts
 com.termux.api
 com.linkedin.android
 com.spotify.music
-com.asyjaiz.A12blur
 de.number26.android
 com.divum.MoneyControl
 com.google.android.apps.fitness
@@ -41,6 +40,7 @@ com.sony.songpal.mdr
 com.looker.droidify
 com.whatsapp
 com.x8bit.bitwarden
+com.snapmint.customerapp
 com.epifi.paisa
 notion.id
 com.olacabs.customer
