@@ -17,6 +17,7 @@ com.google.android.apps.podcasts
 com.termux.api
 com.linkedin.android
 com.spotify.music
+com.google.ar.lens
 de.number26.android
 com.divum.MoneyControl
 com.google.android.apps.fitness
