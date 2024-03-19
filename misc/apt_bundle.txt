@@ -1,4 +1,5 @@
 apt
+atuin
 bash
 bzip2
 ca-certificates
@@ -63,6 +64,7 @@ openssl
 patch
 pcre
 pcre2
+perl
 procps
 psmisc
 python
@@ -91,6 +93,7 @@ x11-repo
 xxhash
 xz-utils
 yazi
+zellij
 zlib
 zoxide
 zsh
