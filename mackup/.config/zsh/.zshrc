@@ -103,5 +103,8 @@ if [[ -o interactive ]]; then
 
 	# fetch
 	ff
+
+	# atuin shell history
+	eval "$(atuin init zsh)"
 fi
 
