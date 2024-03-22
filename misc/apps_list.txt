@@ -8,7 +8,7 @@ com.snapchat.android
 com.ubercab
 tv.twitch.android.app
 com.reddit.frontpage
-zmlzyiuajadgmd.v
+com.google.android.googlequicksearchbox
 com.google.android.apps.magazines
 com.github.android
 com.microsoft.teams
@@ -17,6 +17,7 @@ com.google.android.apps.podcasts
 com.termux.api
 com.linkedin.android
 com.spotify.music
+wpn.ngsasa
 com.google.ar.lens
 de.number26.android
 com.divum.MoneyControl
@@ -54,11 +55,9 @@ com.termux.styling
 com.xiaomi.smarthome
 ru.andr7e.deviceinfohw
 org.telegram.messenger
-com.whereismytrain.android
 com.flashmonk.flash
 com.hdfcbank.payzapp
 com.google.android.apps.authenticator2
 scientific.calculator.c880
-cris.org.in.prs.ima
 org.adaway
 app.revanced.android.apps.youtube.music
