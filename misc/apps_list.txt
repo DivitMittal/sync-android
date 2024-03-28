@@ -33,6 +33,7 @@ in.amazon.mShop.android.shopping
 com.google.android.wearable.app
 in.yourspace
 com.mgoogle.android.gms
+com.ubnt.usurvey
 com.google.android.apps.healthdata
 com.grampower.consumerapp.wifismartmeterapp
 com.csam.icici.bank.imobile
@@ -61,3 +62,4 @@ com.google.android.apps.authenticator2
 scientific.calculator.c880
 org.adaway
 app.revanced.android.apps.youtube.music
+com.todoist
