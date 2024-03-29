@@ -32,7 +32,6 @@ com.microsoft.skydrive
 in.amazon.mShop.android.shopping
 com.google.android.wearable.app
 in.yourspace
-com.mgoogle.android.gms
 com.ubnt.usurvey
 com.google.android.apps.healthdata
 com.grampower.consumerapp.wifismartmeterapp
@@ -51,6 +50,8 @@ com.epifi.paisa
 notion.id
 com.olacabs.customer
 com.wordwebsoftware.android.wordweb
+app.revanced.android.gms
+app.revanced.manager.flutter
 org.fossify.calendar
 com.termux.styling
 com.xiaomi.smarthome
