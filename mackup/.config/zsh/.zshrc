@@ -39,8 +39,10 @@ plugins=()
 #####################################################################################
 # Utilitiy aliases
 alias v='vim'
-alias ff='fastfetch --logo android-small --logo-separate false --structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP --title-color-user magenta --title-color-at blue'
 alias nv='nvim'
+alias ff='fastfetch --logo android-small --logo-separate false \
+					--title-color-user magenta --title-color-at blue --title-color-host red \
+					--structure Title:OS:Kernel:Uptime:Display:Terminal:CPU:CPUUsage:GPU:Memory:Swap:LocalIP'
 
 # eza command-line utility (gnu-ls alternative)
 eza_params=('--all' '--icons=always' '--classify' '--group-directories-first' '--time-style=long-iso' '--group' '--color-scale' '--hyperlink')
@@ -55,9 +57,11 @@ alias doc="cd $HOME/storage/shared/Documents"
 # Other aliases
 alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
 alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+
 alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
-alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean; apt-backup'
-alias android-ultimate='apt-ultimate; apps-backup;magisk-backup;'
+alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean'
+alias nala-ultimate='nala update; nala upgrade; nala autopurge; nala clean'
+alias android-ultimate='nala-ultimate; apt-backup; apps-backup; magisk-backup'
 
 # Root utilities
 alias magisk='su -c magisk'
