@@ -54,6 +54,8 @@ libssh2
 libtirpc
 libunistring
 lsof
+man
+nala
 nano
 ncurses
 ncurses-utils

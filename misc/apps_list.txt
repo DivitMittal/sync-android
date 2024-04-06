@@ -6,7 +6,6 @@ com.kiwibrowser.browser
 com.lookandfeel.cleanerforwhatsapp
 com.snapchat.android
 com.ubercab
-tv.twitch.android.app
 com.reddit.frontpage
 com.google.android.googlequicksearchbox
 com.google.android.apps.magazines
@@ -21,6 +20,7 @@ wpn.ngsasa
 com.google.ar.lens
 de.number26.android
 com.divum.MoneyControl
+network.loki.messenger
 com.google.android.apps.fitness
 com.termux
 com.microsoft.office.officehubrow
@@ -28,6 +28,7 @@ com.twitter.android
 com.amazon.dee.app
 com.google.android.apps.maps
 android.autoinstalls.config.oneplus
+com.apollo.patientapp
 com.microsoft.skydrive
 in.amazon.mShop.android.shopping
 com.google.android.wearable.app
@@ -46,11 +47,11 @@ com.looker.droidify
 com.whatsapp
 com.x8bit.bitwarden
 com.snapmint.customerapp
-com.epifi.paisa
 notion.id
 com.olacabs.customer
 com.wordwebsoftware.android.wordweb
 app.revanced.android.gms
+com.facebook.katana
 app.revanced.manager.flutter
 org.fossify.calendar
 com.termux.styling
