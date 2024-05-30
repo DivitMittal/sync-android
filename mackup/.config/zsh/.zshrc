@@ -55,19 +55,19 @@ alias dl="cd $HOME/storage/downloads"
 alias doc="cd $HOME/storage/shared/Documents"
 
 # Other aliases
-alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
-alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
+# alias magisk-backup="sudo env ls -D /data/adb/modules/ 1> $HOME/sync-android/misc/root/magisk_modules.txt"
+# alias apps-backup="sudo pm list packages -3 | sed 's/package://' 1> $HOME/sync-android/misc/apps_list.txt"
 
 alias apt-backup="apt-mark showmanual 1> $HOME/sync-android/misc/apt_bundle.txt"
 alias apt-ultimate='apt update; apt upgrade; apt autoremove; apt autoclean'
 alias nala-ultimate='nala update; nala upgrade; nala autopurge; nala clean'
-alias android-ultimate='nala-ultimate; apt-backup; apps-backup; magisk-backup'
+alias android-ultimate='nala-ultimate; apt-backup;'
 
 # Root utilities
-alias magisk='su -c magisk'
-alias isodrive='su -c isodrive'
-alias strpmenu='su -c strpmenu'
-alias detach='su -c detach'
+# alias magisk='su -c magisk'
+# alias isodrive='su -c isodrive'
+# alias strpmenu='su -c strpmenu'
+# alias detach='su -c detach'
 
 #################################################################################
 # Additional Programs
