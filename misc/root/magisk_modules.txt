@@ -1,10 +1,7 @@
-  total 25
-  drwxr-xr-x 3 root root 3452 Aug 21  2023 hosts
-  drwxr-xr-x 3 root root 3452 May 25 13:24 playintegrityfix
-  drwxr-xr-x 2 root root 3452 Feb 29 19:31 sensitive_props
-  drwxr-xr-x 3 root root 3452 Jan 17 16:44 universal-gms-doze
-  drwxr-xr-x 5 root root 3452 May 25 13:24 zygisk-detach
-  drwxr-xr-x 5 root root 3452 May  2 04:32 zygisk_lsposed
-  drwxr-xr-x 3 root root 3452 Feb 13 16:03 zygisk_shamiko
-//DIRED// 54 59 103 119 163 178 222 240 284 297 341 355 399 413
-//DIRED-OPTIONS// --quoting-style=literal
+drwxr-xr-x 3 root root 3452 Aug 21  2023 hosts
+drwxr-xr-x 3 root root 3452 May 25 13:24 playintegrityfix
+drwxr-xr-x 2 root root 3452 Feb 29 19:31 sensitive_props
+drwxr-xr-x 3 root root 3452 Jan 17 16:44 universal-gms-doze
+drwxr-xr-x 5 root root 3452 May 25 13:24 zygisk-detach
+drwxr-xr-x 5 root root 3452 May  2 04:32 zygisk_lsposed
+drwxr-xr-x 3 root root 3452 Feb 13 16:03 zygisk_shamiko
