@@ -5,4 +5,5 @@
 These are dotfiles, pref. files, config. files, shell scripts, etc., predominantly for Android, but can also be utilized for any other POSIX-compliant OS.
 
 ## [0] Dependencies
-* [Mackup](https://github.com/lra/mackup) - symlink manager
+
+- [Mackup](https://github.com/lra/mackup) - symlink manager
