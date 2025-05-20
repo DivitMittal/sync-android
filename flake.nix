@@ -8,22 +8,19 @@
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    devshell = {
-      url = "github:numtide/devshell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = {flake-parts, ...} @ inputs:
-    flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = import inputs.systems;
-      imports = [
-        inputs.treefmt-nix.flakeModule
-        inputs.devshell.flakeModule
-      ];
+  outputs = inputs: let
+    inherit (inputs.flake-parts.lib) mkFlake;
+  in
+    mkFlake {inherit inputs;} {
+      systems = builtins.import inputs.systems;
+      imports = [inputs.treefmt-nix.flakeModule];
 
       perSystem = _: {
         treefmt = {
+          projectRootFile = "flake.nix";
+
           flakeCheck = false;
 
           programs = {
@@ -35,8 +32,6 @@
             ## JSON
             prettier.enable = true;
           };
-
-          projectRootFile = "flake.nix";
         };
       };
     };
